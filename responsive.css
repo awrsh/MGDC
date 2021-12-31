@@ -130,6 +130,40 @@
   .toggle {
     display: block;
   }
+@media (min-width: 1440px){
+    /* #what-app .images img {
+        height: 14vw;
+        width: 14vw;
+    } */
+    #what-app .images{
+        justify-content: center;
+    }
+    /* .what .images img {
+        height: 15vw;
+        width: 15vw;
+    } */
+    body ._container h1{
+        font-size: 3.2rem;
+    }
+    body ._container p{
+        font-size: 1.4rem;
+    }
+    .exclusive ._container{
+        padding-top: 64px;
+    }
+    #what-app .box p{
+        font-size: 1.5rem;
+    }
+    #what-app .images div *{
+        font-weight: bolder;
+    }
+    #what-app .images div p{
+        font-size: 1.3rem;
+    }
+    #what-app .images div h3{
+        color: black;
+        font-size: 1.9rem;
+    }
 }
 @media (max-width: 576px){
 
@@ -208,12 +242,23 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    #what-app .images {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
     .what .images img {
         height: 30vw;
         width: 30vw;
         border-radius: 12px;
         margin: 8px 12px;
     }
+    #what-app .images img{
+        height: 30vw;
+        width: 30vw;
+        border-radius: 12px;
+    }
+    
     .trailer .title {
         text-align: center;
         font-size: 2rem;
@@ -306,5 +351,30 @@
         top: 20%;
         width: 80vw;
         margin: 32px 0;
+    }
+    #what-app ._container {
+        width: 80%;
+        padding: 64px 32px;
+    }
+    #what-app .boxes {
+        width: 90%;
+        padding-right: 16px;
+    }
+    #what-app .boxes p{
+       font-size: 0.7rem;
+    }
+    #what-app .boxes .box:nth-child(2n) {
+        width: 90%;
+       
+    }
+    #what-app {
+        background-size: 1000%;
+    }
+    #what-app .images div p{
+        font-size: 0.8rem;
+    }
+    #what-app .images div h3{
+        color: black;
+        font-size: 1rem;
     }
 }

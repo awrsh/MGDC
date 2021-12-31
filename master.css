@@ -21,6 +21,10 @@
 html{
     font-size: 100%;
 }
+main{
+    
+    overflow: hidden;
+}
 body{
     box-sizing: border-box;
     margin: 0;
@@ -73,6 +77,9 @@ header img.shoe{
   height: 40px;
   margin-left: 20px;
 }
+header .toggle{
+    display: none;
+}
 header a{
     margin: 0;
 }
@@ -118,6 +125,12 @@ header .links,  header .socials{
   margin-top: 90px;
   width: 100%;
   z-index: 2;
+}
+.landing{
+    /* height: calc(100vh - 100px); */
+    height: 800px;
+    background-size: cover;
+    background-image: url(img/gold-digger-house-3@1x.png);
 }
 .description{
   font-family: Jumble;
@@ -181,7 +194,6 @@ header .links,  header .socials{
     z-index:5;
 }
 .what .floats{
-    overflow: hidden;
     inset: 0;
     top: 60px;
 }
@@ -207,12 +219,14 @@ header .links,  header .socials{
     top: 20%;
     right: -20%;
     height: 40vw;
+    max-height: 540px;
 }
 .what .img2{
     position: absolute;
     top: 15%;
     left: -10%;
-    height: 25vw;
+    height: 20vw;
+    max-height: 260px;
 }
 .what .img3{
     position: absolute;
@@ -248,22 +262,21 @@ header .links,  header .socials{
     border-radius: 12px;
     margin: 0 12px;
 }
-
-
-.trailer{
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding-top: 5rem;
-    z-index: 4;
-    position: relative;
-    background-image: url(img/gold-digger-house-4@1x.png);
-    border-radius: 0 0 700px 0/100px;
-    background-color: white;
-    /* height: 1500px;
-    background-size: cover; */
+.trailer {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding-top: 5rem;
+	z-index: 4;
+	position: relative;
+	background-image: url("img/GOLD-DIGGER HOUSE.png");
+	border-radius: 0 0 700px 0/100px;
+	background-color: white;
+    background-position: center;
+    min-height: 600px;
+    background-repeat: no-repeat;
 }
 .trailer .bg{
     display: none;
@@ -332,6 +345,7 @@ header .links,  header .socials{
     align-items: center;
     padding: 64px;
     position: relative;
+    min-height: 700px;
 }
 .exclusive ._container{
     width: 50%;
@@ -357,7 +371,6 @@ header .links,  header .socials{
     z-index: 2;
     width: 100%;
     inset: 0;
-    overflow: hidden;
 }
 .exclusive .img3{
     position: absolute;
@@ -399,6 +412,9 @@ header .links,  header .socials{
     border-radius: 0 0 0 700px/66px;
     position: relative;
     z-index: 2;
+    background-image: url(img/GOLD-DIGGER-HOUSE.png);
+	background-position: -36px 2%;
+    min-height: 700px;
 }
 .whocan ._container{
     width: 50%;
@@ -406,9 +422,13 @@ header .links,  header .socials{
 }
 .whocan h1{
     color: var(--primary);
+    text-shadow: var(--primary) 0 0 1px;
+    font-weight: bolder;
 }
 .whocan p{
     color: black;
+    font-weight: bolder;
+    text-shadow: #0005 0 0 6px;
 
 }
 .whocan p:first-of-type::before{
@@ -430,7 +450,6 @@ header .links,  header .socials{
     z-index: 2;
     width: 100%;
     inset: 0;
-    overflow: hidden;
 }
 .whocan .img3 {
 	position: absolute;
@@ -446,7 +465,7 @@ header .links,  header .socials{
 }
 .whocan .img1 {
 	position: absolute;
-	bottom: 1%;
+	bottom: -3%;
 	right: 4%;
 	height: 19vw;
 }
@@ -459,7 +478,6 @@ header .links,  header .socials{
     transform: translateY(-50vh);
     padding-top: 20vh;
     position: relative;
-    overflow-x: hidden;
     background: var(--header-g);
     z-index: 1;
 }
@@ -492,13 +510,89 @@ header .links,  header .socials{
     top: 20%;
     width: 40vw;
 }
-/* #what-app {
-    background-image: url("img/bg-555.png");
-    width: 100%;
-    height: 900px;
-    background-repeat: no-repeat;
-} */
+#what-app {
+	background-image: url("img/GOLD-DIGGER-HOUSE.png");
+	width: 100%;
+	height: 350vh;
+	transform: translateY(-55vh);
+	padding-top: 0vh;
+	background-repeat: no-repeat;
+	background-position: 93% 0%;
+	background-size: 300%;
+}
+#what-app ._container{
+    width: 40%;
+    padding: 64px;
+}
+#what-app ._container p{
+    font-weight: bolder;
+    color: black;
+}
+#what-app ._container h1{
+    color: var(--primary);
+}
+#what-app .boxes{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+#what-app .boxes .box{
+    background: white;
+    margin: 8px 0; 
+    border-radius: 16px;
+    
+}
+#what-app .boxes .box:nth-child(2n-1){
+    width: 70%;
+}
+#what-app .boxes .box:nth-child(2n){
+    width: 80%;
+    margin-left: auto;
+    background: linear-gradient(#993783, #993783);
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+#what-app .boxes .box:nth-child(2n) p{
+    flex-grow: 1;
+    margin: 0;
+}
+#what-app .boxes .box:nth-child(2n) img{
+    width: 20px;
+    margin: 0 24px 0 12px; 
+}
 
+#what-app .floats{
+    z-index: 2;
+    width: 100%;
+    inset: 0;
+}
+#what-app .img1 {
+	position: absolute;
+	top: 3%;
+	right: -1%;
+	height: 40vw;
+}
+#what-app .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    z-index: 5;
+    margin-top: 64px;
+    margin: 64px auto 32px;
+}
+#what-app .images img{
+    height: 17vw;
+    width: 17vw;
+    border-radius: 12px;
+}
+#what-app .images div *{
+    color: black;
+}
+#what-app .images div{
+    padding: 8px 12px;
+}
 
 .footer {
     background-image: url("img/Group 340.png");
