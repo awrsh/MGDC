@@ -1,4 +1,20 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Acme:400");
+@font-face {
+  font-family: "Jaapokki-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Jaapokki-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeue-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Helvetica NeueLTW0693BlkExtObl.ttf") format("truetype");
+}
+
 :root{
     --header-g: linear-gradient(90deg, #e46834,#9a3782);
     --desc-g: linear-gradient(180deg, #e46834,#9a3782);
@@ -6,6 +22,18 @@
     --primary: #e53261;
     --seccondary: #d43e4d;
     --main-g: linear-gradient(190deg, #e56932 0%, #ba3474 83.74%, #9b3782 100%);
+    --font-family-acme: "Acme", Helvetica;
+    --font-family-helveticaneue-regular: "HelveticaNeue-Regular", Helvetica;
+    --font-family-jaapokki-regular: "Jaapokki-Regular", Helvetica;
+    --font-family-jumble: "Jumble", Helvetica;
+    --font-family-jumble-regular: "Jumble-Regular", Helvetica;
+    --font-size-l: 40px;
+    --font-size-m: 36px;
+    --font-size-s: 30px;
+    --font-size-xl: 80px;
+    --font-size-xs: 19px;
+    --font-size-xxl: 87px;
+    --font-size-xxxl: 120px;
 }
 html{
     font-size: 100%;
@@ -89,6 +117,15 @@ header .links,  header .socials{
     height: 930px;
     z-index:5;
 }
+.what h1 {
+    color: #d33847;
+    font-family: var(--font-family-jumble-regular);
+    font-size: 3.5rem;
+    letter-spacing: 0;
+    line-height: 55px;
+    text-align: center;
+    margin-bottom: 40px;
+}
 .what .floats{
     inset: 0;
     top: 60px;
@@ -102,20 +139,25 @@ header .links,  header .socials{
     margin: 0 auto;
 }
 .what h1{
-    font-size: 3rem;
+    /* font-size: 3rem; */
     color: var(--seccondary)
 }
 .what p{
     color: black;
     font-weight: bolder;
     position: relative;
+    font-family: var(--font-family-acme);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    letter-spacing: 0;
 }
 .what .img1{
     position: absolute;
-    top: 20%;
-    right: -20%;
+    top: 23%;
+    right: -8%;
     height: 40vw;
-    max-height: 540px;
+    max-height: 360px;
+    object-fit: cover;
 }
 .what .img2{
     position: absolute;
@@ -161,7 +203,8 @@ header .links,  header .socials{
 
 
 .trailer {
-	height: 100vh;
+	/* height: 100vh; */
+    height: 120vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -189,18 +232,22 @@ header .links,  header .socials{
 }
 .trailer .title{
     color: white;
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin-bottom: 4rem;
-    text-shadow: var(--primary) 3px -3px 0;
-    z-index: 2
+    text-shadow: var(--primary) 5px -6px 0;
+    z-index: 2;
+    letter-spacing: 4px;
+    font-family: var(--font-family-jumble-regular);
+    font-weight: 400;
 }
 .trailer .video-box{
-    background: white;
-    width: 60vw;
-    border-radius: 16px;
-    height: 30vw;
-    margin-bottom: 3rem;
-    z-index:2;
+    background-color: #fff;
+    border: 1px solid #707070;
+    border-radius: 74px;
+    box-shadow: 0px 83px 69px #00000029;
+    height: 880px;
+    width: 1000px;
+    z-index: 99999;
 }
 .trailer .discord{
     width: 300px;
@@ -226,8 +273,8 @@ header .links,  header .socials{
 }
 .trailer .img1{
     position: absolute;
-    bottom: 10%;
-    left: 5%;
+    bottom: 4%;
+    left: 2%;
     height: 12vw;
 }
 
