@@ -1,9 +1,129 @@
+
+@media screen and (max-width: 1700px) {
+  .metaverse, .roadmap, .team, .project, .reward-program {
+    font-size: 25px;
+  }
+  header img.logo {
+    margin-right: 20px;
+    height: 50px;
+  }
+  a.discord{
+    font-size: 16px;
+  }
+  .discord-button {
+    padding: 7px 20px;
+  }
+  .discord-logo {
+    width: 35px;
+  }
+  header .bi{
+    font-size: 30px;
+  }
+  .shoe {
+    display: none;
+  }
+  .what-to-expect-container {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  .what-to-expect-from {
+    font-size: 55px;
+    line-height: 70px;
+  }
+  .redlip-2 {
+    right: -90px;
+    width: 280px;
+  }
+  .coin-5 {
+    width: 315px;
+    left: -115px;
+  }
+  .gold-duck-1 {
+    top: 750px;
+    left: 50px;
+    width: 130px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .join-us-on-discord-big-button {
+    padding: 20px 20px;
+  }
+  .join-us-on-discord-1 {
+    font-size: 30px;
+  }
+  .jumble-regular-normal-white-120px, .jumble-regular-normal-cerise-red-120px {
+    font-size: 100px!important;
+  }
+  .acme-normal-black-36px {
+    font-size: 28px!important;    
+  }
+  .metaverse, .roadmap, .team, .project, .reward-program {
+    font-size: 23px;
+  }
+  .logo-png-transparent {
+    height: 45px;
+    margin-right: 20px;
+  }
+  a.discord {
+    font-size: 16px;
+  }
+  .discord-button {
+    padding: 5px 20px;
+  }
+  .discord-logo {
+    width: 30px;
+    margin-right: 20px;
+  }
+  header .bi{
+    font-size: 30px;
+  }
+  .shoe {
+    display: none;
+  }
+  .reward-program {
+    display: none;
+  }
+  .examples-of-tokens {
+    max-width: 700px;
+  }
+  .what-to-expect-from {
+    text-align: center;
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .what-to-expect-container {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .redlip-2 {
+    right: -90px;
+    width: 250px;
+  }
+  .coin-5 {
+    width: 245px;
+    left: -82px;
+  }
+  .gold-duck-1 {
+    top: 750px;
+    left: 50px;
+    width: 100px;
+  }
+  .nft-container {
+    top: -150px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .description {
     padding-left: 12%;
     padding-right: 12%;
     font-size: 43px;
     line-height: 60px;
+  }
+  .metaverse, .roadmap, .team, .project, .reward-program, header .socials {
+    display: none;
+  }
+  .toggle {
+    display: block;
   }
 }
 @media (max-width: 576px){

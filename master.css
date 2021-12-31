@@ -49,7 +49,7 @@ header{
 header *{
     text-transform: uppercase;
 }
-header img.logo{
+header img.logo {
   height: 70px;
   z-index: 100;
   margin-top: 0px;
@@ -109,6 +109,10 @@ header .links,  header .socials{
 }
 .toggle {
   display: none;
+  cursor: pointer;
+}
+.toggle.bi-list::before {
+  font-weight: bold!important;
 }
 .gold-digger-house {
   margin-top: 90px;
@@ -132,7 +136,39 @@ header .links,  header .socials{
   line-height: 45px;
 }
 .nav{
-    display: none;
+    display: flex;
+    position: absolute;
+    top: 105px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+}
+.topbar-item {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 15px;
+  font-family: 'Jumble';
+}
+.topbar-item-project {
+  background-color: #DB6138;
+}
+.topbar-item-reward {
+  background-color: #E56932;
+}
+.topbar-item-metaverse { 
+  background-color: #CF4859;
+}
+.topbar-item-roadmap {
+  background-color: #C63A6A;
+}
+.topbar-item-team {
+  background-color: #B03578;
+}
+.topbar-item-social {
+  background-color: #88296C;
 }
 .what{
     background: var(--what-g);
