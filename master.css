@@ -74,8 +74,7 @@ header img.shoe{
   margin-left: 20px;
 }
 header a{
-    margin: 0 8px;
-    font-size: 1.5rem;
+    margin: 0;
 }
 header .bi{
   font-size: 40px;
