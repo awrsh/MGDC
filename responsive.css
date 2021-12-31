@@ -119,6 +119,11 @@
     font-size: 43px;
     line-height: 60px;
   }
+  header img.logo{
+    margin-right: 0;
+    height: 40px;
+    margin-top: 0;
+  }
   .metaverse, .roadmap, .team, .project, .reward-program, header .socials {
     display: none;
   }
@@ -132,7 +137,9 @@
         display:none;
     }
     header img.logo{
-        width: 120px;
+      margin-right: 0;
+      height: 40px;
+      margin-top: 0;
     }
     header .toggle{
         display: block;
