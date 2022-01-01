@@ -1,0 +1,236 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+ul {
+    height: 80px;
+    margin: 0;
+    background: linear-gradient(180deg, #e56932 0%, #c23471 52.71%, #993783 100%);
+}
+li {
+    float: left;
+    padding: 5px 20px;
+    list-style-type: none;
+    height: 47px;
+    padding-top: 28px;
+}
+ul li:first-of-type {
+    padding-top: 0px;
+}
+ul li.Social {
+    padding-top: 28px;
+}
+ul li.Logo {
+    padding-top: 20px;
+}
+ul li.Social a {
+    padding-right: 10px;
+}
+ul li.Logo a img {
+    width:50px;
+    height:40px
+}
+a {
+    text-decoration:none;
+    color:white;
+}
+img.logo {
+    width:150px;
+    height:80px;
+}
+.grille-de-rptition-1 {
+    
+}
+.join-us-on-discord {
+    position: absolute;
+    padding-top: 14px;
+    padding-right: 10px;
+    padding-left: 10px;
+    left: 50px;
+    width: 200px;
+}
+.joinus {
+    padding-top: 16px;
+    color: white;
+    position: relative;
+}
+.groupe-36 {
+    background-image: url(../img/groupe-26-2@1x.png);
+    background-position: 50% 50%;
+    background-size: contain;
+    height: 46px;
+    left: 18px;
+    position: absolute;
+    width: 28px;
+    background-repeat: no-repeat;
+}
+.groupe-42 {
+    background-color: #e53261;
+    border-radius: 20px;
+    height: 45px;
+    position: relative;
+    width: 238px;
+}
+.mainSection{
+    background-image: url('../img/gold-digger-house-3@1x.png');
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.rectangle-69 {
+    background: linear-gradient(180deg, #e56932 0%, #ba3474 83.74%, #9b3782 100%);
+    width: 100%;
+}
+
+.rectangle-70 {
+    width: 70%;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 70px;
+    margin: auto;
+    text-align: center;
+}
+.secondSection {
+    background-image: url('../img/07.png');
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1100px;
+}
+.thirdSection {
+    background-image: url('../img/02.png');
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1600px;
+    padding-top: 215px;
+}
+    .thirdSection .TRAILERVIDEO {
+        margin: auto;
+        width: 500px;
+        height: 65px;
+        text-align: center;
+        color: white;
+        text-shadow: 3px -3px red;
+        font-size: 53px;
+        padding-top: 18px;
+    }
+    .thirdSection .whiteBox {
+        width: 70%;
+        height: 480px;
+        background-color: white;
+        margin: auto;
+        border-radius: 50px;
+    }
+    .thirdSection .groupe-42 {
+        background-color: #e53261;
+        border-radius: 20px;
+        height: 45px;
+        width: 39%;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+        .thirdSection .groupe-42 .join-us-on-discord {
+            left: 35%;
+            color: white;
+            font-size: 18px;
+        }
+    .thirdSection .groupe-36 {
+        left: 28%;
+    }
+.forthSection {
+    background-image: url('../img/03.png');
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 2269px;
+}
+.fivethSection {
+    background-image: url('../img/04-2.png');
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.sixSection {
+    background-image: url('../img/05.png');
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.sevenSection {
+    background-image: url('../img/06.png');
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.groupe-13 {
+    width: 51%;
+    height: 200px;
+    margin: auto;
+    margin-top: auto;
+    text-align: center;
+    color: rgb(244,159,136);
+    margin-top: 200px;
+    font-size: 59px;
+    margin-right: 39%;
+}
+.groupe-14 {
+    width: 51%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    color: white;
+    font-size: 26px;
+    margin-right: 39%;
+}
+.groupe-15 {
+    width: 51%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    color: white;
+    font-size: 26px;
+    margin-right: 39%;
+}
+
+.groupe-16 {
+    color: rgb(222,43,26);
+    font-size: 60px;
+    width: 36%;
+    margin: auto;
+    margin-right: auto;
+    margin-right: 20%;
+    padding-top: 50px;
+}
+.groupe-126 {
+    color: black;
+    font-size: 22.5px;
+    width: 36%;
+    margin: auto;
+    margin-right: auto;
+    margin-right: 20%;
+    margin-bottom: 20px;
+}
+.groupe-136 {
+    color: black;
+    font-size: 22.5px;
+    width: 36%;
+    margin: auto;
+    margin-right: auto;
+    margin-right: 20%;
+    margin-bottom: 20px;
+}
