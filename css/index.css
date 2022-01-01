@@ -1,5 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
-ul {
+ul.menuUL {
     height: 80px;
     margin: 0;
     background: linear-gradient(180deg, #e56932 0%, #c23471 52.71%, #993783 100%);
@@ -11,21 +11,21 @@ li {
     height: 47px;
     padding-top: 28px;
 }
-ul li:first-of-type {
+ul.menuUL li:first-of-type {
     padding-top: 0px;
 }
-ul li.Social {
+ul.menuUL li.Social {
     padding-top: 28px;
 }
-ul li.Logo {
+ul.menuUL li.Logo {
     padding-top: 20px;
 }
-ul li.Social a {
+ul.menuUL li.Social a {
     padding-right: 10px;
 }
-ul li.Logo a img {
-    width:50px;
-    height:40px
+ul.menuUL li.Logo a img {
+    width: 50px;
+    height: 40px
 }
 a {
     text-decoration:none;
@@ -100,13 +100,13 @@ img.logo {
     height: 1100px;
 }
 .thirdSection {
-    background-image: url('../img/02.png');
+    background-image: url('../img/354.png');
     background-size: cover;
     background-position: 0;
     background-repeat: no-repeat;
     width: 100%;
-    height: 1600px;
-    padding-top: 215px;
+    height: 3475px;
+    padding-top: 120px;
 }
     .thirdSection .TRAILERVIDEO {
         margin: auto;
@@ -117,31 +117,34 @@ img.logo {
         text-shadow: 3px -3px red;
         font-size: 53px;
         padding-top: 18px;
+        margin-bottom: 10px;
     }
     .thirdSection .whiteBox {
         width: 70%;
-        height: 480px;
+        height: 560px;
         background-color: white;
         margin: auto;
         border-radius: 50px;
     }
     .thirdSection .groupe-42 {
         background-color: #e53261;
-        border-radius: 20px;
-        height: 45px;
+        border-radius: 15px;
+        height: 55px;
         width: 39%;
         margin: auto;
         margin-top: auto;
         margin-top: 50px;
         text-align: center;
+        padding-top: 5px;
     }
         .thirdSection .groupe-42 .join-us-on-discord {
-            left: 35%;
+            left: 26%;
             color: white;
             font-size: 18px;
         }
     .thirdSection .groupe-36 {
-        left: 28%;
+        left: 10%;
+        height: 50px;
     }
 .forthSection {
     background-image: url('../img/03.png');
@@ -152,28 +155,37 @@ img.logo {
     height: 2269px;
 }
 .fivethSection {
-    background-image: url('../img/04-2.png');
+    background-image: url('../img/350.png');
     background-size: cover;
     background-position: 0;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    height: 3752px;
 }
 .sixSection {
-    background-image: url('../img/05.png');
+    background-image: url('../img/351.png');
     background-size: cover;
     background-position: 0;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    height: 1185px;
+    position:relative;
 }
-.sevenSection {
+/*.sevenSection {
     background-image: url('../img/06.png');
     background-size: cover;
     background-position: 0;
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
+}*/
+.eightSection {
+    background-image: url('../img/07.png');
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1100px;
 }
 .groupe-13 {
     width: 51%;
@@ -185,6 +197,7 @@ img.logo {
     margin-top: 200px;
     font-size: 59px;
     margin-right: 39%;
+    margin-bottom: 15px;
 }
 .groupe-14 {
     width: 51%;
@@ -214,7 +227,8 @@ img.logo {
     margin: auto;
     margin-right: auto;
     margin-right: 20%;
-    padding-top: 50px;
+    padding-top: 145px;
+    margin-bottom: 35px;
 }
 .groupe-126 {
     color: black;
@@ -233,4 +247,292 @@ img.logo {
     margin-right: auto;
     margin-right: 20%;
     margin-bottom: 20px;
+}
+.groupe-24 {
+    width: 51%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    color: white;
+    font-size: 26px;
+    margin-right: 39%;
+    position: absolute;
+    bottom: 150px;
+    left: 43%;
+}
+.groupe-25 {
+    width: 51%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    color: white;
+    font-size: 26px;
+    margin-right: 39%;
+    position: absolute;
+    bottom: 20px;
+    left: 38%;
+}
+.groupe-98 {
+    width: 100%;
+    margin: auto;
+    padding-top: 130px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-shadow: 3px -3px red;
+}
+.groupe-99 {
+    width: 34%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    color: white;
+    font-size: 26px;
+    margin-right: 32%;
+}
+
+.groupe-510 {
+    color: rgb(211,56,71);
+    width: 34%;
+    margin: auto;
+    padding-top: 300px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 45px;
+    margin-right: 32%;
+}
+
+.groupe-511 {
+    width: 48%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 56px;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    margin-right: 25%;
+}
+.groupe-512 {
+    width: 48%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 56px;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    margin-right: 25%;
+}
+
+.groupe-17 {
+    color: white;
+    width: 41%;
+    margin: auto;
+    padding-top: 430px;
+    margin-bottom: 56px;
+    text-align: left;
+    font-size: 60px;
+    margin-left: 9%;
+}
+.groupe-18 {
+    width: 32%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.groupe-19 {
+    width: 32%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 40px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.groupe-20 {
+    width: 32%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 40px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.groupe-21 {
+    width: 32%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 40px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.groupe-22 {
+    width: 32%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 40px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.groupe-23 {
+    width: 32%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.groupe-600 {
+    color: rgb(211,56,71);
+    width: 40%;
+    margin: auto;
+    padding-top: 231px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 56px;
+    margin-left: 9%;
+}
+.groupe-601 {
+    color: black;
+    width: 34%;
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 9%;
+}
+
+.groupe-470 {
+    color: white;
+    width: 34%;
+    margin: auto;
+    padding-top: 297px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 29%;
+}
+.groupe-471 {
+    color: white;
+    width: 34%;
+    margin: auto;
+    padding-top: 170px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 29%;
+}
+.groupe-472 {
+    color: white;
+    width: 34%;
+    margin: auto;
+    padding-top: 170px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 29%;
+}
+.groupe-473 {
+    color: white;
+    width: 34%;
+    margin: auto;
+    padding-top: 220px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 29%;
+}
+.groupe-474 {
+    color: white;
+    width: 34%;
+    margin: auto;
+    padding-top: 190px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 29%;
+}
+.groupe-475 {
+    color: white;
+    width: 34%;
+    margin: auto;
+    padding-top: 200px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 29%;
+}
+.groupe-476 {
+    color: rgb(211,56,71);
+    width: 34%;
+    margin: auto;
+    padding-top: 115px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 65px;
+    margin-left: 40%;
+}
+.groupe-477 {
+    color: rgb(234,156,135);
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 29%;
+}
+.groupe-478 {
+    color: rgb(210,71,86);
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 29%;
+}
+.groupe-479 {
+    color: rgb(210,71,86);
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 29%;
+}
+.groupe-480 {
+    color: rgb(210,71,86);
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 29%;
+}
+ul.ourTeam {
+    background: none;
+    background-color: transparent;
+    margin-top: 468px;
+}
+ul.ourTeam li {
+    width: 20%;
 }
